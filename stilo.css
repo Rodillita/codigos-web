@@ -1,0 +1,112 @@
+body{
+    
+    width: 1440px;
+    height: 1024px;
+    left: 0px;
+    top: 0px;
+    
+    background: url(pexels-ekaterina-bolovtsova-6192336.jpg);
+    background-size: auto 150%;
+  
+}
+header{
+position: absolute;
+width: 1266px;
+height: 221px;
+left: 73px;
+top: 35px;
+
+}
+
+.encabezadodetexto{
+   /* Rectangle 1 */
+
+
+position: absolute;
+width: 926px;
+height: 201px;
+left: 73px;
+top: 55px;
+
+background: rgba(255, 255, 255, 0.3);
+border-radius: 25px;
+    
+
+}
+.fotografia{
+    position: absolute;
+    width: 232px;
+    height: 221px;
+    left: 1107px;
+    top: 35px;
+
+background: url(Ellipse\ 1.png);
+background-position: center;
+border-radius:1000px}
+
+.contenido{
+    position: absolute;
+width: 1000px;
+height: 1000px;
+left: 73px;
+top: 393px;
+
+}
+
+.item{
+    margin: 2em;
+    padding: 1em;
+    float: left;
+
+
+
+}
+#item1{
+    width: 200px;
+    height: 300px;
+    left: 85.31px;
+    top: 40px;
+
+background: rgba(196, 196, 196, 0.3);
+border-radius: 25px;
+}
+#item2{
+/* Rectangle 2 */
+
+
+
+width: 200px;
+height: 300px;
+left: 85.31px;
+top: 40px;
+
+background: rgba(196, 196, 196, 0.3);
+border-radius: 25px;
+}
+
+#item3{
+    /* Rectangle 2 */
+
+
+
+    width: 200px;
+    height: 300px;
+    left: 85.31px;
+    top: 40px;
+
+background: rgba(196, 196, 196, 0.3);
+border-radius: 25px;
+}
+
+.footer{
+
+    position: absolute;
+    width: 1257px;
+    height: 102px;
+    left: 84px;
+    top: 903px;
+    
+    background: rgba(196, 196, 196, 0.3);
+    border-radius: 25px;
+}
+

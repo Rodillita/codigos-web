@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <h1>¿Que es el modelo dom?</h1> 
+        <style>
+            h1 {text-align: center;}
+            p {text-align: center;}
+           </style>
+        <link rel="stylesheet" href="stilodom.css">
+    </head>
+    <body>
+        <p>   
+El modelo de objeto de documento (DOM) es una interfaz de programación para los documentos HTML y XML.<br/>
+Facilita una representación estructurada del documento y define de qué manera los programas pueden acceder, al fin de modificar, tanto su estructura, estilo y contenido.<br/> El DOM da una representación del documento como un grupo de nodos y objetos estructurados que tienen propiedades y métodos. Esencialmente, conecta las páginas web a scripts o lenguajes de programación.<br/>
+
+Una página web es un documento. Éste documento puede exhibirse en la ventana de un navegador o también como código fuente HTML.<br/> Pero, en los dos casos, es el mismo documento.<br/> El modelo de objeto de documento (DOM) proporciona otras formas de presentar, guardar y manipular este mismo documento.<br/> El DOM es una representación completamente orientada al objeto de la página web y puede ser modificado con un lenguaje de script como JavaScript.<br/>
+
+El W3C DOM estándar forma la base del funcionamiento del DOM en muchos navegadores modernos. Varios navegadores ofrecen extensiones más allá del estándar W3C, hay que ir con extremo cuidado al utilizarlas en la web, ya que los documentos pueden ser consultados por navegadores que tienen DOMs diferentes.
+
+Por ejemplo, el DOM de W3C especifica que el método getElementsByTagName en el código de abajo debe devolver una lista de todos los elementos p:</p> 
+
+
+
+<img class ="captura" src="Captura.PNG">
+
+<p>Todas las propiedades, métodos y eventos disponibles para la manipulación y la creación de páginas web está organizado dentro de objetos. Un ejemplo: el objeto document representa al documento mismo, el objeto table hace funcionar la interfaz especial HTMLTableElement del DOM para acceder a tablas HTML, y así sucesivamente. Ésta documentación procura una relación objeto-por-objeto del DOM que funciona con los navegadores basados en Gecko.</p> 
+
+    <h2>
+        DOM y JavaScript
+    </h2>
+    <style>
+        h2 {text-align: center;}
+        a {text-align: center;}
+       </style>
+       
+
+
+       <p>El ejemplo corto de abajo, como casi todos los ejemplos de esta referencia, es JavaScript. Es decir, es escrito en JavaScript pero utiliza el DOM para acceder al documento y a sus elementos. El DOM no es un lenguaje de programación pero sin él, el lenguaje JavaScript no tiene ningún modelo o noción de las páginas web, de la páginas XML ni de los elementos con los cuales es usualmente relacionado. Cada elemento -"el documento íntegro, el título, las tablas dentro del documento, los títulos de las tablas, el texto dentro de las celdas de las tablas"- es parte del modelo de objeto del documento para cada documento, así se puede acceder y manipularlos utilizando el DOM y un lenguaje de escritura, como JavaScript.
+
+En el comienzo, JavaScript y el DOM estaban herméticamente enlazados, pero después se desarrollaron como entidades separadas. El contenido de la página es almacenado en DOM y el acceso y la manipulación se hace vía JavaScript, podría representarse aproximadamente así:
+
+API(web o página XML) = DOM + JS(lenguaje de script)
+
+El DOM fue diseñado para ser independiente de cualquier lenguaje de programación particular, hace que la presentación estructural del documento sea disponible desde un simple y consistente API. Aunque en este manual nos centramos exclusivamente en JavaScript, la directrices del DOM pueden construirse para cualquier lenguaje, así lo demuestra el siguiente ejemplo de Python:</p> 
+
+<img class ="captura" src="Captura2.PNG">
+
+<h2>
+    ¿Cómo se accede al DOM?
+</h2>
+
+     
+       <p>
+        No se tiene que hacer nada especial para empezar a utilizar el DOM.<br/> Los diferentes navegadores tienen directrices DOM distintas, y éstas directrices tienen diversos grados de conformidad al actual estándar DOM (un tema que se intenta evitar en este manual), pero todos los navegadores web usan el modelo de objeto de documento para hacer accesibles las páginas web al script.<br/>
+
+        Cuando se crea un script esté en un elemento SCRIPT o incluido en una página web por la instrucción de cargar un script inmediatamente está disponible para usarlo con el API, accediendo así a los elementos document o window, para manipular el documento mismo o sus diferentes partes, las cuales son los varios elementos de una página web.<br/> La programación DOM hace algo tan simple como lo siguiente, lo cual abre un mensaje de alerta usando la función alert() desde el objeto window, o permite métodos DOM más sofisticados para crear realmente un nuevo contenido, como en el largo ejemplo de más abajo.<br/>
+       </p>
+       <img class ="captura" src="Captura3.PNG">
+</body>
+</html> 
