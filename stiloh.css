@@ -1,0 +1,48 @@
+body{
+
+
+
+    background: #7F8C8D;
+    background-size: auto 200%;
+
+}
+
+p{
+
+    font-size: 30px;
+    text-align: center;
+    
+    margin-left: 150px;
+}
+h1{
+
+    
+    text-align: center;
+    
+    margin-left: 150px;
+}
+.img{
+
+    position: absolute;
+    width: 455px;
+    height: 165.88px;
+    left: 0px;
+    top: 0px;
+
+}
+.ims{
+
+    width: 300px;
+    height: auto;
+    margin: auto;
+    display: block;
+
+}
+.imt{
+    
+    display: block;
+    width: 455px;
+   margin: 0px; float: right; width: 250px; 
+
+
+}
