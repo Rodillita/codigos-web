@@ -1,0 +1,68 @@
+<h1>Flip Cards Cars</h1>
+
+<div class="boxesContainer">
+  <link rel="stylesheet" href="stils.css">
+  <div class="cardBox">
+    <div class="card">
+      <div class="front">
+        <h3>Mustang V6 Deluxe 2dr</h3>
+        <img class="imt" src="car-g8d629a4a9_640.jpg"> 
+        <p>Girar</p>
+        <strong>&#x21bb;</strong>
+      </div>
+      <div class="back">
+        <h3>Especificaciones</h3>
+        <p>Horsepower rpm 5,300 & Torque 240 lb-ft & Torque rpm 3,500 & Maximum towing capacity 1,000 lbs.</p>
+        <a href="#">Button 1</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="cardBox">
+    <div class="card">
+      <div class="front">
+        <h3>Mclaren P1</h3>
+        <img class="imt" src="mclaren-g4fc4bcba5_640.jpg">
+        <p>Girar</p>
+        <strong>&#x21bb;</strong>
+      </div>
+      <div class="back">
+        <h3>Especificaciones</h3>
+        <p>Aceleracion 1/4 milla (402 m) 9,8 segundos a 245 km/h (152 mph) & Frenada 100 km/h (62 mph)-0 en 30 m (98 pies); 200 km/h (124 mph)-0 en 116 m (381 pies) </p>
+        
+      </div>
+    </div>
+  </div>
+
+  <div class="cardBox">
+    <div class="card">
+      <div class="front">
+        <h3>Dodge Charger</h3>
+        <img class="imt" src="dodge-charger-g53c5b7385_640.jpg">
+        <p>girar</p>
+        <strong>&#x21bb;</strong>
+      </div>
+      <div class="back">
+        <h3>Especificaciones</h3>
+        <p>V8 Hemi Hellcat supercargado de 6.2 litros & 707 hp y 650 lb-pie de par que se acopla a una caja automática de ocho velocidades TorqueFlite que envía el poder al eje trasero</p>
+        
+      </div>
+    </div>
+  </div>
+
+  <div class="cardBox">
+    <div class="card">
+      <div class="front">
+        <h3>Lamborgini Aventador</h3>
+        <img class="imt" src="lamborghini-g20210797a_640.jpg">
+        <p>Hover to flip</p>
+        <strong>&#x21bb;</strong>
+      </div>
+      <div class="back">
+        <h3>Especificaciones</h3>
+        <p>TipoV12, 60°, inyección multipunto & Cilindrada6498 cm³ & CALIBRE x CARRERAØ 95 mm x 76,4 mm & RELACIÓN DE COMPRESIÓN11,8 ± 0,2</p>
+      </div>
+    </div>
+  </div>
+
+</div>
