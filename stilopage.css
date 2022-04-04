@@ -1,0 +1,26 @@
+p{
+    font-size: 17px;
+    text-align: left;
+}
+
+body{
+
+    width: 1440px;
+    height: 1024px;
+    left: 0px;
+    top: 0px;
+
+    background: url(fondacho.PNG);
+    background-size: auto 200%;
+
+}
+.img{
+margin:auto;
+display: block;
+
+
+background-position: center;
+border-radius:20px
+    
+}
+    
