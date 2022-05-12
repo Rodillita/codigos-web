@@ -1,0 +1,72 @@
+h1{
+    text-align: center;
+ }
+ h2{
+    text-align: center;
+ }
+body{
+    
+    width: 1440px;
+    height: 1024px;
+    left: 0px;
+    top: 0px;
+    
+    background: url(pexels-ekaterina-bolovtsova-6192336.jpg);
+    background-size: auto 150%;
+  
+}
+header{
+position: absolute;
+width: 1266px;
+height: 221px;
+left: 73px;
+top: 35px;
+
+}
+
+.encabezadodetexto{
+  
+
+position: absolute;
+width: 926px;
+height: 201px;
+left: 73px;
+top: 55px;
+
+background: rgba(255, 255, 255, 0.3);
+border-radius: 25px;
+    
+
+}
+.fotografia{
+    position: absolute;
+    width: 232px;
+    height: 221px;
+    left: 1107px;
+    top: 35px;
+
+background: url(ico.png);
+background-position: center;
+}
+
+ol {
+
+    list-style-type: upper-roman;
+    text-align: left;
+    display:inline-block;
+
+  }
+.contenido{
+position: absolute;
+width: 1000px;
+height: 1000px;
+left: 73px;
+top: 393px;
+text-align: center;
+
+
+}
+
+
+
+    
