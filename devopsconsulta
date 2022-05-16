@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CSS Grid Layout</title>
+    
+
+    
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+
+    <header class="title">
+        <h1>Consulta</h1>
+    </header>
+
+    <div class="container">
+        <header class="header">
+            <h1>Programacion Web</h1>
+        </header>
+        <main class="content">
+            <article class="article">
+                <h1>¿Qué es un automatizador web?</h1>
+                <p>La automatización de pruebas de aplicaciones Web tiene como objetivo crear un conjunto de pruebas que simulen las acciones que puede realizar un usuario sobre el navegador, de forma que puedan ser repetidas tantas veces como sea necesario, ya sean en distintos momentos del desarrollo o sobre los distintos navegadores del mercado, para verificar el correcto funcionamiento de la aplicación web.</p>
+                
+            </article>
+
+            <article class="article">
+                <h1>¿Qué papel cumple en el paradigma DevOps</h1>
+                <p>El término DevOps, que es una combinación de los términos ingleses development (desarrollo) y operations (operaciones), designa la unión de personas, procesos y tecnología para ofrecer valor a los clientes de forma constante.
+
+                    ¿Qué significa DevOps para los equipos? DevOps permite que los roles que antes estaban aislados (desarrollo, operaciones de TI, ingeniería de la calidad y seguridad) se coordinen y colaboren para producir productos mejores y más confiables. Al adoptar una cultura de DevOps junto con prácticas y herramientas de DevOps, los equipos adquieren la capacidad de responder mejor a las necesidades de los clientes, aumentar la confianza en las aplicaciones que crean y alcanzar los objetivos empresariales en menos tiempo.</p>
+            </article>
+            <article class="article">
+                <h1>¿Qué papel cumple el CI/CD?</h1>
+                <p>La CI/CD es un método para distribuir las aplicaciones a los clientes con frecuencia mediante el uso de la automatización en las etapas del desarrollo de aplicaciones. Los principales conceptos que se le atribuyen son la integración, la distribución y la implementación continuas. Se trata de una solución para los problemas que puede generar la integración del código nuevo para los equipos de desarrollo y de operaciones (también conocida como "el infierno de la integración").</p>
+                   
+            </article>
+            <article class="article">
+                <h1>Se encuentran varios modelos de la Carabina Covenant en Halo Infinite</h1>
+                <p>Hemos tenido un año cargado de novedades para la industria del videojuego y ahora solo nos queda esperar las semanas que quedan para entrar en el 2022, el cual ya promete tener muchas más cosas para la nueva generación de consolas que apenas ha empezado a dar sus primeros pasos.</p>
+                
+            </article>
+        </main>
+
+        <aside class="sidebar">
+            <div>
+                <img src="fsa.PNG" alt="" >
+                <img src="c81f85dc-fb74-43ff-a9a9-10d1e96aef25.png" alt="" >
+                <p></p>
+            </article>
+            <div>
+                <img src="das.PNG" alt="" >
+                <img src="Cgfds.PNG" alt="" >
+                
+            
+        </aside>
+
+
+        <footer class="footer">
+            <h4>Apoyo</h4>
+            <p>Imganes sacadas de:https://ed.team/blog/que-es-ci-cd</p>
+        </footer>
+
+    </div>
+</body>
+
+</html>
+
+
